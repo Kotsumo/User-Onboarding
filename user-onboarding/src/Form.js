@@ -24,7 +24,7 @@ export default function Form(props) {
             <div className='form-group submit'>
                 <h2>Add a user</h2>
 
-                <button disabled={disabled}>submit</button>
+                <button id='submitBtn' disabled={disabled}>submit</button>
 
 
                 <label>Name
